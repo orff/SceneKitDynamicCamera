@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <SceneKit/SceneKit.h>
 
-@interface GameViewController : UIViewController
+@interface GameViewController : UIViewController {
+    float boxWidth;
+    float boxHeight;
+}
 
 @end
